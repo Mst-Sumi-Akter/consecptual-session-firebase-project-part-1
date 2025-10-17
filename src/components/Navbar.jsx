@@ -6,12 +6,12 @@ import MyLink from "./MyLink";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-100f py-2 border-b border-b-slate-300 ">
+    <div className="bg-slate-100 py-2 border-b border-b-slate-300 ">
       <MyContainer className="flex items-center justify-between">
         <figure>
           <img src={logo} className="w-[55px]" />
         </figure>
-        <ul className="flex items-center gap-2">
+        <ul className="flex items-center gap-5">
           <li>
             <MyLink to={"/"}>Home</MyLink>
           </li>
